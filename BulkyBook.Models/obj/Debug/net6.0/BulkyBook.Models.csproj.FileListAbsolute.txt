@@ -1,0 +1,24 @@
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.deps.json
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.dll
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.pdb
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.csproj.AssemblyReference.cache
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfoInputs.cache
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfo.cs
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.dll
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\refint\BulkyBook.Models.dll
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.pdb
+F:\asp\Complete guide to ASP.NET Core MVC (.NET 6)\BulkyBook\BulkyBook.Models\obj\Debug\net6.0\ref\BulkyBook.Models.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.deps.json
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\bin\Debug\net6.0\BulkyBook.Models.pdb
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.csproj.AssemblyReference.cache
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\refint\BulkyBook.Models.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\BulkyBook.Models.pdb
+C:\Users\EslamMo\Desktop\New folder\BulkyBook2\BulkyBook.Models\obj\Debug\net6.0\ref\BulkyBook.Models.dll

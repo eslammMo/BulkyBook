@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BulkyBook.DataAccess",
+    "\\BulkyBook.DataAccess\\Repository",
+    "\\BulkyBook.DataAccess\\Repository\\IRepository",
+    "\\BulkyBookWeb",
+    "\\BulkyBookWeb\\Views"
+  ],
+  "SelectedNode": "\\BulkyBookWeb\\Views\\Category",
+  "PreviewInSolutionExplorer": false
+}
