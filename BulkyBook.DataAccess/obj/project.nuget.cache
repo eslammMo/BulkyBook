@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jF1kZpi+vWH4p97aT4S4+7ihotHaYkVqUUlxCS9oLiyMGIDjcCmj3igk27JQvf2dBP2PPEq8yWJqPVtoCU0QRw==",
+  "dgSpecHash": "I2COM6EYPqvS9WyANn2Nxrx19gZLYEyi5TErZTth3kXCQozPKa1n5s1L9QMOFwbT4+8NzXP2snrgyCc5hjlVfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EslamMo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\EslamMo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

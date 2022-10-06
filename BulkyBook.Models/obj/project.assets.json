@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Models\\BulkyBook.Models.csproj",
+      "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Models\\BulkyBook.Models.csproj",
       "projectName": "BulkyBook.Models",
-      "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Models\\BulkyBook.Models.csproj",
+      "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Models\\BulkyBook.Models.csproj",
       "packagesPath": "C:\\Users\\EslamMo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Models\\obj\\",
+      "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EslamMo\\AppData\\Roaming\\NuGet\\NuGet.Config",

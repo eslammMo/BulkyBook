@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {}
+    "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+    "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
         "projectName": "BulkyBook.Utility",
-        "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
+        "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
         "packagesPath": "C:\\Users\\EslamMo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Utility\\obj\\",
+        "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EslamMo\\AppData\\Roaming\\NuGet\\NuGet.Config",

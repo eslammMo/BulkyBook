@@ -1933,11 +1933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
       "projectName": "BulkyBook.DataAccess",
-      "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+      "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
       "packagesPath": "C:\\Users\\EslamMo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EslamMo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1954,8 +1954,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Models\\BulkyBook.Models.csproj": {
-              "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBook2\\BulkyBook.Models\\BulkyBook.Models.csproj"
+            "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+              "projectPath": "C:\\Users\\EslamMo\\Desktop\\New folder\\BulkyBookMain\\BulkyBook.Models\\BulkyBook.Models.csproj"
             }
           }
         }
