@@ -10,5 +10,6 @@ public class ApplicationDbContext : DbContext
     }
     public   DbSet<Category> categories { get; set; }
     public DbSet<CoverType> CoverTypes { get; set; }
+    public DbSet<Product> Products { get; set; }
 
 }

@@ -10,6 +10,7 @@ namespace BulkyBook.DataAccess.Repository.IRepository
     {
         public  ICategoryRepository Category { get; }
         public ICoverTypeRepository CoverType { get; }
+        public IProductRepository Product { get; }
         public  void Save();
     }
 }

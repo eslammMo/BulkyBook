@@ -557,3 +557,5 @@ C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\obj\Debug\net6.0\
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
