@@ -10,9 +10,9 @@ namespace BulkyBook.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(string? includedProperties=null );
         void Add(T entity);
-        T GetFirstOrDefault(Expression<Func<T, bool>> filter);
+        T GetFirstOrDefault(Expression<Func<T, bool>> filter , string? includedProperties = null);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entity);
     }
