@@ -39,12 +39,15 @@
                         <h5 class="pt-2"> @obj.DisplayOrder </h5>
                     </td>
                     <td>
-                        <a class="btn btn-primary " asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id">
+                        <div class="btn-group rounded">
+                        <a class="btn btn-primary rounded " asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id">
                             <i class="bi bi-pen"></i> &nbsp; Edit
                         </a>
-                        <a class="btn btn-danger " asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id">
+                            &nbsp;&nbsp;
+                        <a class="btn btn-danger  rounded" asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id">
                             <i class="bi bi-x-circle"></i> &nbsp; Delete
-                        </a>
+                            </a>
+                        </div>
                     </td>
                 </tr>
             }
