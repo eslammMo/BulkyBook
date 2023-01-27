@@ -1,0 +1,106 @@
+﻿@model ShoppingCart
+
+<form method="post">
+    <div class="container row m-auto col-12 bg-">
+        <div class="col-4" >
+            <div class="m-5" style="border:1px solid #008cba; border-radius:60px ;">
+                <h1 class="pt-4" style=" font-family:Zapf Chancery; text-align:center" class="card-header"> Price List</h1>
+                <div style="align-content:center ; text-align:center" >
+                    <table class="table table-hover h4 ">
+                        <thead class="h3">
+                            <tr style="font:bold">
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1-50</th>
+                                <td class="bg-secondary">@Model.Product.Price.ToString("c")</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">51-100</th>
+                                <td class="bg-secondary">@Model.Product.Price50.ToString("c")</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">100+</th>
+                                <td class="bg-secondary">@Model.Product.Price100.ToString("c")</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                        <h5 class=" text-muted p-2">List Price:<strike><b>@Model.Product.ListPrice.ToString("c")</b></strike></h5>
+                        <h5 class=" text-muted p-2">ISBN :<b>@Model.Product.ISBN</b></h5>
+                        <div class="row p-2 ">
+
+                        <div class="col-2 text-primary m-3"> <h4> &nbsp;Count &nbsp;</h4></div>
+
+                        &nbsp;&nbsp; &nbsp; <div class="col-6 m-2"><input asp-for="Count" class="form-control" /></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-8" >
+            <div class="mt-5" style="border:1px solid #008cba; border-radius:60px ;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="p-3">
+                            <h1 class="py-2 card-header" style="text-align:center" >@Model.Product.Title </h1>
+                            <h3 class="text-warning pb-3" style="text-align:center">by @Model.Product.Author </h3>
+                            <div class="card-body row p-2">
+                                <div class="col-8">
+                               
+                                    <br/>
+                                    <br />
+                                    <p class="text-dark  px-3" style="letter-spacing:.2rem">
+                                        
+                                        <br />
+                                        @Model.Product.Description
+                                    </p>
+                                </div>
+                                <div class="col-4 px-3">
+                                    <span class="badge bg-info pt-2" style="height:30px;">@Model.Product.Category.Name</span>
+                                    <span class="badge bg-warning pt-2" style="height:30px;">@Model.Product.CoverType.Name</span>
+                                    <img style="height:300px ;width:auto" src="@Model.Product.ImgeUrl" class="rounded">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            
+        </div>
+        <div class="row" style="text-align:center ; ">
+            <div class="col-12  pb-1 ">
+                <a class="btn btn-success form-control rounded-5" style="height:50px; width:200px;" asp-action="Index">Back To List</a>
+            </div>
+            <div class="col-12 pb-1">
+                <button type="submit" value="Add to Cart" class="btn btn-warning form-control rounded-5 " style="height:50px; width:200px;">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="col-sm-6 col-md-4 col-lg-6 p-5 card" style="border:1px solid #008cba; border-radius:5px ;">
+    <img src="https://via.placeholder.com/150" alt="..." class="rounded-circle">
+</div>
+<div class="col-sm-6 col-md-4 col-lg-6 p-5 card" style="border:1px solid #008cba; border-radius:5px ;">
+    <div class=" col-6">
+    </div>
+
+</div>
+
+*@
