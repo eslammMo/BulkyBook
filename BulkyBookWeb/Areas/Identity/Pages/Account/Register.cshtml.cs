@@ -164,11 +164,11 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 user.StreetAddress=Input.StreetAddress;
-                user.StreetAddress = Input.City;
-                user.StreetAddress = Input.State;
-                user.StreetAddress = Input.Name;
-                user.StreetAddress = Input.PostalCode;
-                user.StreetAddress = Input.PhoneNumber;
+                user.City = Input.City;
+                user.State = Input.State;
+                user.Name = Input.Name;
+                user.PostalCode = Input.PostalCode;
+                user.PhoneNumber = Input.PhoneNumber;
                 if (Input.Role == SD.Role_User_Comp)
                 {
                     user.CompanyId=Input.CompanyId;

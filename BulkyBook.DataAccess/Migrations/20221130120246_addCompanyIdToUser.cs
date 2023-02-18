@@ -27,7 +27,7 @@ namespace BulkyBookWeb.Migrations
                 oldMaxLength: 128);
 
             migrationBuilder.AddColumn<int>(
-                name: "CompantId",
+                name: "CompanyId",
                 table: "AspNetUsers",
                 type: "int",
                 nullable: true);

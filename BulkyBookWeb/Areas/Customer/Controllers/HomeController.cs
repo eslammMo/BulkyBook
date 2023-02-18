@@ -2,9 +2,11 @@
 using BulkyBook.DataAccess.Repository;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace BulkyBookWeb.Areas.Customer.Controllers
 {
@@ -25,13 +27,36 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
             IEnumerable<Product> productList= _unitOfWork.Product.GetAll(includedProperties:"Category,CoverType");
             return View(productList);
         }
-        public IActionResult Details(int id)
+        public IActionResult Details(int productId)
         {
             ShoppingCart cartObj = new() {
-                Product=_unitOfWork.Product.GetFirstOrDefault(x=>x.Id==id, includedProperties: "Category,CoverType"),
+                Product=_unitOfWork.Product.GetFirstOrDefault(x=>x.Id== productId, includedProperties: "Category,CoverType"),
                 Count=1,
+                ProductId= productId,
             };
             return View(cartObj);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public IActionResult Details(ShoppingCart  shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId = claims.Value;
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(x => x.ApplicationUserId == claims.Value && x.ProductId == shoppingCart.ProductId);
+            if (cartFromDb == null)
+            {
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+            }
+            else
+            {
+                _unitOfWork.ShoppingCart.IncrementCount(cartFromDb, shoppingCart.Count);
+            }
+            
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Privacy()
