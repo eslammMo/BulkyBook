@@ -574,3 +574,4 @@ C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.dll
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.pdb
 C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\EslamMo\Desktop\New folder\BulkyBookMain\BulkyBookWeb\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll

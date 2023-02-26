@@ -37,21 +37,27 @@
                             </div>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                Manage Order
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" asp-controller="Cart" asp-action="Index">
                                 <i class="bi bi-basket"></i>
                             </a>
-                            
+
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
-                   @* <form class="d-flex">
-                        <input class="form-control me-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    @* <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                     </form>*@
                 </div>
             </div>
         </nav>
-       
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -62,7 +68,7 @@
 
     <footer class=" pt-2 footer text-bg-light bg-primary">
         <div class="container ">
-            &copy; 2022 - BulkyBookWeb 
+            &copy; 2022 - BulkyBookWeb
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
